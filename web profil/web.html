@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+    <title>creatdesigntika.id</title>
+
+    <style>
+        .card {
+            background-color: rgb(0, 0, 0);
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5em;
+            color: rgb(5, 5, 5);
+        }
+
+        .box {
+            max-width: 300px;
+        }
+
+        iframe {
+            border-radius: 2em;
+            border: none;
+            width: 300px;
+            height: 300px;
+            opacity: 0.7;
+            transition: 0.3s ease-in-out;
+        }
+
+        iframe:hover {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+
+        .heading-custom {
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .heading-custom::after {
+            content: '';
+            width: 60px;
+            height: 4px;
+            background-color: #343a40;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">BERANDA <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TENTANG SAYA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PORTOFOLIO</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-expanded="false">
+                LAINNYA
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://www.instagram.com/">INSTAGRAM</a>
+                <a class="dropdown-item" href="https://www.tiktok.com/">TIKTOK</a>
+                <a class="dropdown-item" href="https://www.youtube.com/">YOUTUBE</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="card mb-3" style="max-width: 1200px;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img/pg3.jpg" alt="..." style="max-height: 400px;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body text-white">
+                        <h3 class="card-title">HALLO SAYA SITI FATIHAH</h3>
+                        <hr>
+                        <p class="card-text">SAYA ADALAH SEORANG WEB DEVELOPMENT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 class="text-center my-5 display-4 font-weight-bold text-uppercase">TENTANG SAYA</h2>
+
+
+    <div class="container">
+        <div class="card mb-3 text-white" style="max-width: 1200px;">
+            <div class="row no-gutters align-items-center">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">SEDIKIT TENTANG SAYA</h5>
+                        <p class="card-text">
+                            Hai! Saya adalah seseorang yang memiliki minat besar di dunia teknologi
+                            dan bakat di bidang seni menggambar. Meskipun saya masih dalam
+                            tahap pengembangan dan belajar, rasa ingin tahu dan
+                            semangat saya untuk terus berkembang tidak pernah padam.<br><br>
+
+                            Teknologi membuka banyak peluang baru yang ingin saya jelajahi,
+                            sementara seni menggambar menjadi cara saya mengekspresikan ide
+                            dan imajinasi.<br><br>
+
+                            Saya percaya, menggabungkan keduanya akan membawa saya ke banyak
+                            pengalaman menarik dan proyek-proyek kreatif di masa depan.<br><br>
+
+                            Saat ini, saya terus belajar, berlatih, dan mengejar impian
+                            untuk menjadi lebih baik setiap hari.<br><br>
+
+                            Terima kasih telah berkunjung ke profil saya!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/pg1.jpg" class="img-fluid rounded" alt="Foto Profil" style="max-height: 400px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <h2 class="text-center my-5 display-4 font-weight-bold text-uppercase">PORTOFOLIO</h2>
+
+
+    <div class="table-responsive w-75 mx-auto">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">NO</th>
+                    <th scope="col">NAMA KEGIATAN</th>
+                    <th scope="col">WAKTU KEGIATAN</th>
+                    <th scope="col">BUKTI KEGIATAN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Ngoding</td>
+                    <td>8.00-13.30</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Mengerjakan Projek Tim</td>
+                    <td>8.00-13.30</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Debugging dan Testing</td>
+                    <td>8.00-13.30</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <h2 class="text-center my-5 display-4 font-weight-bold text-uppercase">OPINI</h2>
+
+
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-black bg-light">
+                        <h5 class="card-title">Teknologi Masa Depan</h5>
+                        <p class="card-text">Dunia teknologi terus berkembang pesat, menghadirkan inovasi yang
+                            sebelumnya hanya ada dalam imajinasi</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-black bg-light">
+                        <h5 class="card-title">Seni Digital</h5>
+                        <p class="card-text">Seni digital membuka ruang ekspresi baru bagi para kreator untuk
+                            menciptakan karya tanpa batasan medium tradisional.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-black bg-light">
+                        <h5 class="card-title">Self-Improvement</h5>
+                        <p class="card-text">Perjalanan untuk menjadi versi terbaik dari diri sendiri dimulai dari
+                            langkah kecil setiap hari.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/4.png" class="card-img-top" alt="...">
+                    <div class="card-body text-black bg-light">
+                        <h5 class="card-title">Alam dan Kehidupan</h5>
+                        <p class="card-text">Alam adalah guru terbaik yang mengajarkan tentang keseimbangan, ketenangan,
+                            dan keajaiban hidup.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/5.png" class="card-img-top" alt="...">
+                    <div class="card-body text-black bg-light">
+                        <h5 class="card-title">Dunia Kreatif</h5>
+                        <p class="card-text">Kreativitas adalah kekuatan yang mampu mengubah ide sederhana menjadi
+                            sesuatu yang luar biasa.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/6.png" class="card-img-top" alt="...">
+                    <div class="card-body text-black bg-light">
+                        <h5 class="card-title">Teknologi dan Manusia</h5>
+                        <p class="card-text">Hubungan antara teknologi dan manusia semakin erat, membentuk gaya hidup
+                            baru yang lebih cepat, praktis, dan terhubung.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <h2 class="text-center my-5 display-4 font-weight-bold text-uppercase">HUBUNGI SAYA</h2>
+
+
+    <section>
+        <form>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="exampleInputPassword1">Nama</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="exampleInputEmail1">subjek</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="exampleInputPassword1">isi</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+
+        <div class="box">
+        </div>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d293.9086132278119!2d111.8778951166289!3d-7.0341597241643665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20jl%20ponpes%20miftahul%20ishlah%20Gebalan!5e1!3m2!1sid!2sid!4v1745559735489!5m2!1sid!2sid"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer style="background-color:#333; color:white; text-align:center; padding:20px;">
+        <p>&copy; 2025 SITI FATIHAH. Semua Hak Dilindungi.</p>
+        <p>Alamat: Jalan PONPES MIFTAHUL ISHLAH DSN.GEBALAN DS.WUKIRHARJO, PARENGAN, TUBAN, INDONESIA</p>
+        <p>
+            <a href="https://www.example.com" style="color:white; text-decoration:none;">Kebijakan Privasi</a> |
+            <a href="https://www.example.com" style="color:white; text-decoration:none;">Syarat dan Ketentuan</a>
+        </p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
